@@ -9,6 +9,8 @@ We compare our proposed ImportantAug with other methods: baseline (no augmentati
 
 In the baseline, we train a recognizer that does not utilize any data augmentation. All other methods are trained by initializing their parameters to those of this pre-trained baseline recognizer.
 
+Additionally, we create a noisy test set version for Google Speech Commands, named GSC-Musan, and it could be downloaded here https://zenodo.org/record/6066174#.Yn7NPJPMLyU
+
 ## 2. Initial set up and data preparation
 The best way to train and reprocedure the result is to use the same environment. The custom dataset GSC-QUT is different if create using different environment.
 conda env create -f environment.yml
